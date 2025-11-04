@@ -1,0 +1,207 @@
+@media (max-width: 480px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: var(--primary-color);
+  }
+
+  /* NAVBAR */
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2dvh;
+    background-color: var(--secondary-color);
+    padding: 0.2em;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2dvh;
+    text-align: center;
+    width: 100%;
+  }
+  nav li {
+    font-size: 1.6rem;
+    width: 100%;
+    border: 1.5px solid grey;
+    border-radius: 4px;
+  }
+  nav li.selected a {
+    text-decoration: underline;
+  }
+  nav li a {
+    text-decoration: none;
+    color: var(--brand-color);
+  }
+  nav h2 a {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* WHOLE PAGE */
+  #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #heading h1 {
+    display: block;
+    text-align: center;
+    padding: 0.2em 0 0.4em 0;
+    width: 100%;
+    font-size: 3rem;
+  }
+
+  /* LEFT SIDE */
+  main #home {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.6em;
+  }
+  #text-left {
+    width: 80dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #bio {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+  }
+  #img-left img {
+    display: block;
+    width: 80dvw;
+  }
+
+  /* RIGHT SIDE */
+  aside {
+    display: flex;
+    align-items: start;
+    box-sizing: content-box;
+  }
+  .cafe-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: content-box;
+  }
+  .hours-left {
+    padding: 1em;   
+    border-bottom: 1px solid grey;
+  }
+  .hours-left h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+  .location-right {
+    display: flex;
+    flex-direction: column;
+    width: 194px;
+    padding: 1em 1em 0.8em 1em;
+    text-align: center;
+  }
+  .location-right img {
+    width: 10em;
+    padding-top: 1em;
+  }
+  td {
+    padding: 0 0.4em;
+  }
+
+  /* MENU PAGE ONLY */
+  main .menuheading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1em 1em 0 1em;
+  }
+  main .menuheading h2 {
+    display: block;
+    justify-content: center;
+    text-decoration: underline;
+    cursor: pointer; 
+    font-size: 1.4em;
+  }
+  main .menuimg {
+    display: flex;
+    justify-content: center;
+  }
+  main .menuimg img {
+    padding: 1em;
+    width: 95dvw;
+  }
+
+  /* CONTACT-BOOKING PAGE ONLY */
+  main #contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+  }
+  #container-contactbookings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1dvw;
+    padding-bottom: 2em;
+  }
+  div .form-spiel {
+    padding: 0 2em;
+    width: 90dvw;
+    text-align: center;
+    margin: auto;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80dvw;
+    padding-bottom: 1em;
+    border-bottom: 2px solid grey;
+  }
+  button {
+    display: inline;
+    width: 70px;
+    line-height: 2em;
+    margin: 1.4em auto;
+    box-sizing: content-box;
+    border-radius: 5px;
+  }
+  
+  /* FOOTER */
+  footer {
+    box-sizing: content-box;
+    text-align: center;
+    background-color: var(--secondary-color);
+    margin-top: 10px;
+    padding: 0.5rem;
+  }
+  footer img {
+    padding-top: 1em;
+  }
+}

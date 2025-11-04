@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+:root {
+  --primary-color: #f8fffa;
+  --secondary-color: #eee5d8;
+  --brand-color: #56352a;
+}
+
+* {
+  font-family: "Permanent Marker", cursive, serif;
+  font-weight: lighter;
+  color: var(--brand-color);
+}

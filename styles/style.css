@@ -1,0 +1,201 @@
+@media (min-width: 481px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: var(--primary-color);
+  }
+
+  /* Navbar */
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7dvw;
+    background-color: var(--secondary-color);
+    padding: 0.6em;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7dvw;
+  }
+  nav li {
+    font-size: 1.6rem;
+    max-width: 150px;
+  }
+  nav li.selected a {
+    text-decoration: underline;
+  }
+  nav li a {
+    text-decoration: none;
+    color: var(--brand-color);
+  }
+  nav h2 a {
+    display: flex;
+    justify-content: center;
+  }
+
+  
+  /* WHOLE PAGE */
+  #container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1dvw;
+    padding-bottom: 2em;
+  }
+  #heading h1 {
+    display: block;
+    margin-left: 1em;
+    padding-left: 25dvw;
+    padding-top: 0.8em;
+    padding-bottom: 0.4em;
+    font-size: 3rem;
+  }
+  main {
+    border-right: 0.125em solid;
+  }
+
+  /* MENU PAGE ONLY */
+  main .menuheading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+  }
+  main .menuheading h2 {
+    display: block;
+    justify-content: center;
+    text-decoration: underline;
+    cursor: pointer; 
+  }
+  main .menuimg {
+    display: flex;
+    justify-content: center;
+  }
+  main .menuimg img {
+    padding: 2em;
+    width: 800px;
+  }
+  
+  /* CONTACT-BOOKING PAGE ONLY */
+  main #contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+  }
+  #container-contactbookings {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1dvw;
+    padding-bottom: 2em;
+    padding-top: 1em;
+  }
+  div .form-spiel {
+    padding: 0 2em;
+    width: 250px;
+    margin: auto;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 1em 3em;
+    width: 250px;
+  }
+  button {
+    display: inline;
+    width: 70px;
+    line-height: 2em;
+    margin: 1.4em auto;
+    box-sizing: content-box;
+    border-radius: 5px;
+  }
+  /* LEFT SIDE */
+  main #home {
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+  }
+  #hero {
+    display: flex;
+    padding: 2.2em;
+    justify-content: space-evenly;
+  }
+  #text-left {
+    width: 256px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 1em;
+    justify-content: center;
+  }
+  #bio {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+  }
+  #img-left img {
+    display: block;
+    width: 12em;
+  }
+  
+  /* RIGHT SIDE */
+  aside {
+    display: flex;
+    align-items: start;
+    box-sizing: content-box;
+  }
+  .cafe-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: content-box;
+  }
+  .hours-left {
+    padding: 0 15px;   
+  }
+  .hours-left h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+  .location-right {
+    display: flex;
+    flex-direction: column;
+    width: 194px;
+    padding: 0 10px;
+    text-align: center;
+    border-left: 0.12em solid;
+  }
+  .location-right img {
+    width: 10em;
+    padding-top: 1em;
+  }
+  td {
+    padding: 0 0.4em;
+  }
+  
+  /* FOOTER */
+  footer {
+    box-sizing: content-box;
+    text-align: center;
+    background-color: var(--secondary-color);
+    margin-top: 10px;
+    padding: 0.5rem;
+  }
+  footer img {
+    padding-top: 1em;
+  }
+  
+}
